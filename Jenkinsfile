@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'java -version'
+                sh 'jenkins -version'
             }
         }
         stage('Test'){
